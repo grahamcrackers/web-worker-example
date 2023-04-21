@@ -1,0 +1,7 @@
+{
+    "extends": "../tsconfig",
+    "compilerOptions": {
+        "lib": ["webworker", "esnext"]
+    },
+    "files": ["./worker.ts"]
+}
